@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Experiment</title>
+  <!-- lab.js and libraries -->
+<!--  <script src="lib/lab.js" data-labjs-script="library"></script>-->
+<!--  <script src="lib/lab.fallback.js" data-labjs-script="fallback"></script>-->
+<!--  <link rel="stylesheet" href="lib/lab.css">-->
+
+
+  <script type="text/javascript" src="lib/vendors/labjs-2017.2.0/lab.dev.js"></script>
+  <link rel="stylesheet" type="text/css" href="lib/vendors/labjs-2017.2.0/lab.css"/>
+
+  <!-- pavlovia.org plugin -->
+  <script type="text/javascript" src="lib/vendors/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript" src="lib/labjs-pavlovia-3.0.0.js"></script>
+
+
+  <!-- actual experiment code -->
+  <script defer src="items.js"></script>
+  <script defer src="study.js"></script>
+</head>
+<body style="background-color: #000000; color: #ffffff">
+<div data-labjs-section="main" class="container fullscreen">
+  <main class="content-vertical-center content-horizontal-center">
+    <div>
+      <img src="lib/loading.svg" alt="loading icon" style="padding: 1rem"><br>
+      <p>
+        <strong>Loading experiment</strong>,<br>
+        please give us a moment!
+      </p>
+    </div>
+  </main>
+  <footer class="content-vertical-center content-horizontal-center" style="background-color:#000000; color:#ffffff">
+    <small class="text-muted">
+      adapted from code by Felix Henninger
+    </small>
+  </footer>
+</div>
+</body>
+</html>
+<!--
+
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Experiment</title>
+  &lt;!&ndash; viewport setup &ndash;&gt;
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  &lt;!&ndash; lab.js and libraries &ndash;&gt;
+  <script src="lib/lab.js" data-labjs-script="library"></script>
+  <script src="lib/lab.fallback.js" data-labjs-script="fallback"></script>
+  <link rel="stylesheet" href="lib/lab.css">
+  &lt;!&ndash; actual experiment code &ndash;&gt;
+  <script defer src="study.js"></script>
+</head>
+<body>
+  &lt;!&ndash; If you'd rather have a container with a fixed width
+       and variable height, try removing the fullscreen class below &ndash;&gt;
+  <div class="container fullscreen">
+    <header class="content-vertical-center content-horizontal-center">
+      <div>
+        &lt;!&ndash; You could put a title here,
+             or remove the header element entirely &ndash;&gt;
+      </div>
+    </header>
+    <main
+      class="content-vertical-center content-horizontal-center"
+      data-labjs-section="main"
+    >
+      &lt;!&ndash; the nested div is helpful because the centering would
+           otherwise break the natural flow of content &ndash;&gt;
+      <div>
+        <img src="lib/loading.svg" alt="loading icon" style="padding: 1rem"><br>
+        <p>
+          <strong>Preparing experiment</strong><br>
+          <span class="text-muted">please wait a moment</span>
+        </p>
+      </div>
+    </main>
+    <footer class="content-vertical-center content-horizontal-center">
+      <div>
+        &lt;!&ndash; Again, please feel free to replace the footer content,
+             or to remove the footer if you don't need it &ndash;&gt;
+        <small class="text-muted">Awesome lab, prestigious institution™</small>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
+-->
