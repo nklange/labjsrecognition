@@ -283,7 +283,7 @@ var experiment = new lab.flow.Sequence({
       // Respond to clicks on the download button
       events: {
         'click button#download': function() {
-          this.options.datastore.download()
+         // this.options.datastore.download()
           this.end();
         },
       },
@@ -291,7 +291,7 @@ var experiment = new lab.flow.Sequence({
   ],
   datastore: new lab.data.Store()
 
-})
+});
 
 // Go!
-experiment.run()
+experiment.run();

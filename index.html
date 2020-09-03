@@ -9,12 +9,15 @@
 <!--  <link rel="stylesheet" href="lib/lab.css">-->
 
 
-  <script type="text/javascript" src="lib/vendors/labjs-2017.2.0/lab.dev.js"></script>
-  <link rel="stylesheet" type="text/css" href="lib/vendors/labjs-2017.2.0/lab.css"/>
+  <!-- lab.js and libraries -->
+  <script type="text/javascript" src="lib/vendors/labjs-19.1.0/lab.js" data-labjs-script="library"></script>
+  <script type="text/javascript" src="lib/vendors/labjs-19.1.0/lab.fallback.js" data-labjs-script="fallback"></script>
+  <link rel="stylesheet" type="text/css" href="lib/vendors/labjs-19.1.0/lab.css"/>
 
   <!-- pavlovia.org plugin -->
   <script type="text/javascript" src="lib/vendors/jquery-2.2.0.min.js"></script>
-  <script type="text/javascript" src="lib/labjs-pavlovia-3.0.0.js"></script>
+  <script type="text/javascript" src="lib/labjs-pavlovia-2020.2.js"></script>
+
 
 
   <!-- actual experiment code -->
@@ -25,7 +28,8 @@
 <div data-labjs-section="main" class="container fullscreen">
   <main class="content-vertical-center content-horizontal-center">
     <div>
-      <img src="lib/loading.svg" alt="loading icon" style="padding: 1rem"><br>
+<!--      <img src="lib/loading.svg" alt="loading icon" style="padding: 1rem"><br>-->
+      <img src="lib/vendors/labjs-19.1.0/loading.svg" alt="loading icon" style="padding: 1rem"><br>
       <p>
         <strong>Loading experiment</strong>,<br>
         please give us a moment!
